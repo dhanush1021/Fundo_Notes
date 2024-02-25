@@ -1,0 +1,16 @@
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\bin\Debug\netcoreapp3.1\Repository_Layer.deps.json
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\bin\Debug\netcoreapp3.1\Repository_Layer.runtimeconfig.json
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\bin\Debug\netcoreapp3.1\Repository_Layer.runtimeconfig.dev.json
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\bin\Debug\netcoreapp3.1\Repository_Layer.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\bin\Debug\netcoreapp3.1\Repository_Layer.pdb
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Repository_Layer.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Repository_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Repository_Layer.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Repository_Layer.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Repository_Layer.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Repository_Layer.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Repository_Layer.pdb
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Repository_Layer.genruntimeconfig.cache
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\bin\Debug\netcoreapp3.1\Common_Layer.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\bin\Debug\netcoreapp3.1\Common_Layer.pdb
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Reposito.C9099ADE.Up2Date

@@ -1,0 +1,15 @@
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\bin\Debug\netcoreapp3.1\Manager_Layer.deps.json
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\bin\Debug\netcoreapp3.1\Manager_Layer.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\bin\Debug\netcoreapp3.1\Manager_Layer.pdb
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\obj\Debug\netcoreapp3.1\Manager_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\obj\Debug\netcoreapp3.1\Manager_Layer.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\obj\Debug\netcoreapp3.1\Manager_Layer.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\obj\Debug\netcoreapp3.1\Manager_Layer.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\obj\Debug\netcoreapp3.1\Manager_Layer.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\obj\Debug\netcoreapp3.1\Manager_Layer.pdb
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\bin\Debug\netcoreapp3.1\Common_Layer.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\bin\Debug\netcoreapp3.1\Repository_Layer.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\bin\Debug\netcoreapp3.1\Common_Layer.pdb
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\bin\Debug\netcoreapp3.1\Repository_Layer.pdb
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\obj\Debug\netcoreapp3.1\Manager_Layer.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Manager_Layer\obj\Debug\netcoreapp3.1\Manager_.D799810B.Up2Date

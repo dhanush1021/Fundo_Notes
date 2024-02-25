@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5B1651-1985-42B0-9469-4627E2705EDB}|FundoNotes\\FundoNotes.csproj|c:\\users\\hp\\onedrive\\desktop\\javascript\\fundonotes\\fundonotes\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5B1651-1985-42B0-9469-4627E2705EDB}|FundoNotes\\FundoNotes.csproj|solutionrelative:fundonotes\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7100A-FA8A-4C9B-8653-00367C4CE072}|Manager_Layer\\Manager_Layer.csproj|c:\\users\\hp\\onedrive\\desktop\\javascript\\fundonotes\\manager_layer\\services\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7100A-FA8A-4C9B-8653-00367C4CE072}|Manager_Layer\\Manager_Layer.csproj|solutionrelative:manager_layer\\services\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{433F4986-9EA9-4067-84C1-91D97C483CE8}|Repository_Layer\\Repository_Layer.csproj|c:\\users\\hp\\onedrive\\desktop\\javascript\\fundonotes\\repository_layer\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{433F4986-9EA9-4067-84C1-91D97C483CE8}|Repository_Layer\\Repository_Layer.csproj|solutionrelative:repository_layer\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{433F4986-9EA9-4067-84C1-91D97C483CE8}|Repository_Layer\\Repository_Layer.csproj|c:\\users\\hp\\onedrive\\desktop\\javascript\\fundonotes\\repository_layer\\interfaces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{433F4986-9EA9-4067-84C1-91D97C483CE8}|Repository_Layer\\Repository_Layer.csproj|solutionrelative:repository_layer\\interfaces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26C5CC6-CE73-4000-B80F-345BB50EC50C}|Common_Layer\\Common_Layer.csproj|c:\\users\\hp\\onedrive\\desktop\\javascript\\fundonotes\\common_layer\\requestmodel\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26C5CC6-CE73-4000-B80F-345BB50EC50C}|Common_Layer\\Common_Layer.csproj|solutionrelative:common_layer\\requestmodel\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A7100A-FA8A-4C9B-8653-00367C4CE072}|Manager_Layer\\Manager_Layer.csproj|c:\\users\\hp\\onedrive\\desktop\\javascript\\fundonotes\\manager_layer\\interfaces\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A7100A-FA8A-4C9B-8653-00367C4CE072}|Manager_Layer\\Manager_Layer.csproj|solutionrelative:manager_layer\\interfaces\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Common_Layer\\RequestModel\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Common_Layer\\RequestModel\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Common_Layer\\RequestModel\\LoginModel.cs",
+              "RelativeToolTip": "Common_Layer\\RequestModel\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T09:58:36.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserManager.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Manager_Layer\\Interfaces\\IUserManager.cs",
+              "RelativeDocumentMoniker": "Manager_Layer\\Interfaces\\IUserManager.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Manager_Layer\\Interfaces\\IUserManager.cs",
+              "RelativeToolTip": "Manager_Layer\\Interfaces\\IUserManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T09:27:57.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserInterface.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Repository_Layer\\Interfaces\\IUserInterface.cs",
+              "RelativeDocumentMoniker": "Repository_Layer\\Interfaces\\IUserInterface.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Repository_Layer\\Interfaces\\IUserInterface.cs",
+              "RelativeToolTip": "Repository_Layer\\Interfaces\\IUserInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T09:27:04.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Repository_Layer\\Services\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repository_Layer\\Services\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Repository_Layer\\Services\\UserRepository.cs",
+              "RelativeToolTip": "Repository_Layer\\Services\\UserRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAADwvx4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T09:11:40.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Manager_Layer\\Services\\UserManager.cs",
+              "RelativeDocumentMoniker": "Manager_Layer\\Services\\UserManager.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Manager_Layer\\Services\\UserManager.cs",
+              "RelativeToolTip": "Manager_Layer\\Services\\UserManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T07:28:18.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\FundoNotes\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FundoNotes\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\FundoNotes\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FundoNotes\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAApwCwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T07:36:43.415Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
