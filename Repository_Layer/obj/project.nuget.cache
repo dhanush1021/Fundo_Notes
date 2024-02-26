@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3uzbY/1gK+ipDGrRG3XnWEiL5E2eGnTXu5YIdKpWY/fJLVcS1KmLTigjhBSJtMYcXTCbSk3SedEE8Nu2zwOhtA==",
+  "dgSpecHash": "q8Q/yUUKXE0LqiMV5PN5evp1sNj2jHL3rABR7jl1A/OVImGuf7vKvr/7RCbTW0zYZ7zzUR04NXTy/2Dzxf6Eqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\javascript\\FundoNotes\\Repository_Layer\\Repository_Layer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.0\\microsoft.aspnetcore.authentication.jwtbearer.3.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

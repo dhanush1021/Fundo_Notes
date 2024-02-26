@@ -9,7 +9,7 @@ using Repository_Layer.Context;
 namespace Repository_Layer.Migrations
 {
     [DbContext(typeof(EntityContext))]
-    [Migration("20240225195007_Demo1")]
+    [Migration("20240226091210_Demo1")]
     partial class Demo1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -19,24 +19,6 @@ namespace Repository_Layer.Migrations
                 .HasAnnotation("ProductVersion", "3.1.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-            modelBuilder.Entity("Repository_Layer.Entity.Encrypted_Keys", b =>
-                {
-                    b.Property<int>("UserId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("IV")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Key")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("UserId");
-
-                    b.ToTable("Keys");
-                });
 
             modelBuilder.Entity("Repository_Layer.Entity.UserEntity", b =>
                 {

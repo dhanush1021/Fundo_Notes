@@ -11,7 +11,6 @@ using System.Runtime.Intrinsics.X86;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using Aes = System.Security.Cryptography.Aes;
 
 namespace Repository_Layer.Services
 {
@@ -25,16 +24,10 @@ namespace Repository_Layer.Services
         public UserEntity UserRegistration(RegisterModel model)
         {
             UserEntity userEntity = new UserEntity();
-            Encrypted_Keys encrypted_Keys = new Encrypted_Keys();
-            List<byte[]> bytes = new List<byte[]>();
             userEntity.firstname = model.firstname;
             userEntity.lastname = model.lastname;
             userEntity.email = model.email;
-            bytes = Encrypt(model.password);
-            encrypted_Keys.Key = Convert.ToBase64String(bytes[0]);
-            encrypted_Keys.IV = Convert.ToBase64String(bytes[1]);
-            userEntity.password = Convert.ToBase64String(bytes[2]);
-            context.Keys.Add(encrypted_Keys);
+            userEntity.password = Encrypt(model.password);
             context.UserTable.Add(userEntity);
             context.SaveChanges();
             return userEntity;
@@ -42,19 +35,13 @@ namespace Repository_Layer.Services
         public async Task<UserEntity> LoginUser(LoginModel model)
         {
             var entity = await context.UserTable.SingleOrDefaultAsync(user => user.email == model.email);
-            if(entity == null)
+            if (entity == null)
             {
                 return null;
             }
             else
             {
-                Encrypted_Keys key = await context.Keys.SingleOrDefaultAsync(user => user.UserId == entity.UserId);
-                List<byte[]> bytes = new List<byte[]>();
-                bytes.Add(Convert.FromBase64String(key.Key));
-                bytes.Add(Convert.FromBase64String(key.IV));
-                bytes.Add(Convert.FromBase64String(entity.password));
-                string passwo = decrypt(bytes);
-                if (passwo.Substring(0, passwo.Length - 2) == model.password)
+                if(Decrypt(model.password, entity.password))
                 {
                     return entity;
                 }
@@ -65,50 +52,16 @@ namespace Repository_Layer.Services
                 }
             }
         }
-        public List<byte[]> Encrypt(string password)
+        public string Encrypt(string password)
         {
-            List<byte[]> result = new List<byte[]>();
-            using(Aes aes = Aes.Create())
-            {
-                aes.GenerateKey();
-                aes.GenerateIV();
-                result.Add(aes.Key);
-                result.Add(aes.IV);
-                ICryptoTransform Encrypter = aes.CreateEncryptor(aes.Key,aes.IV);
-                using(MemoryStream memory = new MemoryStream())
-                {
-                    using(CryptoStream crypt = new CryptoStream(memory, Encrypter, CryptoStreamMode.Write))
-                    {
-                        using(StreamWriter sw = new StreamWriter(crypt))
-                        {
-                            sw.WriteLine(password);
-                        }
-                        result.Add(memory.ToArray());
-                    }
-                }
-            }
-            return result;
+            int sal_Len = new Random().Next(10, 13);
+            string salt = BCrypt.Net.BCrypt.GenerateSalt(sal_Len);
+            string hashing_pass = BCrypt.Net.BCrypt.HashPassword(password,salt);
+            return hashing_pass;
         }
-        public string decrypt(List<byte[]> data)
+        public bool Decrypt(string password,string password1) 
         {
-            string pass;
-            using (Aes aes = Aes.Create())
-            {
-                aes.Key = data[0];
-                aes.IV = data[1];
-                ICryptoTransform decrypt = aes.CreateDecryptor(aes.Key, aes.IV);
-                using (MemoryStream ms = new MemoryStream(data[2]))
-                {
-                    using (CryptoStream Decrypt = new CryptoStream(ms, decrypt, CryptoStreamMode.Read))
-                    {
-                        using (StreamReader sr = new StreamReader(Decrypt))
-                        {
-                            pass = sr.ReadToEnd();
-                        }
-                    }
-                }
-            }
-            return pass;
+            return BCrypt.Net.BCrypt.Verify(password,password1);
         }
     }
 }
