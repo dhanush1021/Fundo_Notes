@@ -2,10 +2,24 @@
 
 namespace Repository_Layer.Migrations
 {
-    public partial class UserTable : Migration
+    public partial class Demo1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Keys",
+                columns: table => new
+                {
+                    UserId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Key = table.Column<string>(nullable: true),
+                    IV = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Keys", x => x.UserId);
+                });
+
             migrationBuilder.CreateTable(
                 name: "UserTable",
                 columns: table => new
@@ -25,6 +39,9 @@ namespace Repository_Layer.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Keys");
+
             migrationBuilder.DropTable(
                 name: "UserTable");
         }

@@ -13,5 +13,6 @@ namespace Repository_Layer.Context
             
         }
         public DbSet<UserEntity> UserTable { get; set; }
+        public DbSet<Encrypted_Keys> Keys { get; set; }
     }
 }

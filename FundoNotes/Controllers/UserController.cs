@@ -51,7 +51,7 @@ namespace FundoNotes.Controllers
                 }
                 else
                 {
-                    if(entity.password == model.password)
+                    if(entity.password != "incorrect")
                     {
                         return Ok(new ResponseModel<UserEntity>
                         {

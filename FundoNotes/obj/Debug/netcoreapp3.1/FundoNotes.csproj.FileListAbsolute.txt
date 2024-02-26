@@ -49,3 +49,9 @@ C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\obj\Debug\netcorea
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\obj\Debug\netcoreapp3.1\FundoNotes.dll
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\obj\Debug\netcoreapp3.1\FundoNotes.pdb
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\obj\Debug\netcoreapp3.1\FundoNotes.genruntimeconfig.cache
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\obj\Debug\netcoreapp3.1\FundoNotes.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\obj\Debug\netcoreapp3.1\FundoNotes.sourcelink.json
