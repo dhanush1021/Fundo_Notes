@@ -14,3 +14,4 @@ C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\ne
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\bin\Debug\netcoreapp3.1\Common_Layer.dll
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\bin\Debug\netcoreapp3.1\Common_Layer.pdb
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Reposito.C9099ADE.Up2Date
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Repository_Layer\obj\Debug\netcoreapp3.1\Repository_Layer.sourcelink.json

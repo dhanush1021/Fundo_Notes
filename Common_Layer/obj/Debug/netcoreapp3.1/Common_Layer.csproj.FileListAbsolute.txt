@@ -7,3 +7,4 @@ C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Common_Layer\obj\Debug\netcor
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Common_Layer\obj\Debug\netcoreapp3.1\Common_Layer.csproj.CoreCompileInputs.cache
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Common_Layer\obj\Debug\netcoreapp3.1\Common_Layer.dll
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Common_Layer\obj\Debug\netcoreapp3.1\Common_Layer.pdb
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\Common_Layer\obj\Debug\netcoreapp3.1\Common_Layer.sourcelink.json
