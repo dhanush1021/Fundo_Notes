@@ -64,3 +64,17 @@ C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcorea
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\Automatonymous.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\GreenPipes.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\MassTransit.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\MassTransit.AspNetCoreIntegration.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\MassTransit.RabbitMqTransport.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\NewId.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\hp\OneDrive\Desktop\javascript\FundoNotes\FundoNotes\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll

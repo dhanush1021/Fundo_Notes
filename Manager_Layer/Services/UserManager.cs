@@ -21,9 +21,21 @@ namespace Manager_Layer.Services
         {
             return userInterface.UserRegistration(model);
         }
-        public Task<UserEntity> LoginUser(LoginModel model)
+        public Task<string> LoginUser(LoginModel model)
         {
             return userInterface.LoginUser(model);
+        }
+        public ForgetPasswordModel ForgetPassword(string email)
+        {
+            return userInterface.ForgetPassword(email);
+        }
+        public bool CheckEmail(string email)
+        {
+            return userInterface.CheckEmail(email);
+        }
+        public string ResetPassword(string email, ResetPasswordModel model)
+        {
+            return userInterface.ResetPassword(email, model);
         }
     }
 }

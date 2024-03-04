@@ -10,6 +10,9 @@ namespace Manager_Layer.Interfaces
     public interface IUserManager
     {
         UserEntity UserRegistration(RegisterModel model);
-        public Task<UserEntity> LoginUser(LoginModel model);
+        public Task<string> LoginUser(LoginModel model);
+        public ForgetPasswordModel ForgetPassword(string email);
+        public bool CheckEmail(string email);
+        public string ResetPassword(string email, ResetPasswordModel model);
     }
 }

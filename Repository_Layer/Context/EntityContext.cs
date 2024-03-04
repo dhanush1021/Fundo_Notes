@@ -10,8 +10,10 @@ namespace Repository_Layer.Context
     {
         public EntityContext(DbContextOptions options) : base(options)
         {
-            
+
         }
         public DbSet<UserEntity> UserTable { get; set; }
+        public DbSet<NoteEntity> NotesTable { get; set; }
+        public DbSet<LabelEntity> LabelsTable { get; set; }
     }
 }
